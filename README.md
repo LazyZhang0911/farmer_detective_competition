@@ -166,7 +166,7 @@ def predict(test_loader, model, criterion):
 ```
 # 6.设置训练次数，进行模型训练并验证，生成提交文件
 
-```plain
+```python
 if __name__ == '__main__':
     print('strat training...')
     for i in range(31):
